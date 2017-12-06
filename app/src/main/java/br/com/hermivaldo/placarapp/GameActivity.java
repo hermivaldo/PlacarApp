@@ -20,6 +20,8 @@ public class GameActivity extends AppCompatActivity {
         time1 = (TextView) findViewById(R.id.timeCasa);
         time2 = (TextView) findViewById(R.id.timeVisitante);
 
+
+        
         Intent intent = getIntent();
         ArrayList<String> times = intent.getStringArrayListExtra(MainActivity.PARAMENTO_TIMES);
         if (times != null) {
