@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">PlacarApp</string>
-    <string name="label_titulo">Times</string>
-    <string name="developer">Desenvolvido por: Hermivaldo Braga</string>
-    <string name="time_1">Time 1</string>
-    <string name="time_2">Time 2</string>
-    <string name="nm_time1">Insira o nome do primeiro time</string>
-    <string name="nm_time2">Insira o nome do segundo time</string>
-    <string name="tx_btn">Jogar</string>
+    <string name="app_name" translatable="false">PlacarApp</string>
+    <string name="label_titulo">Team</string>
+    <string name="developer">Developed by Hermivaldo Braga</string>
+    <string name="time_1">Teams 1</string>
+    <string name="time_2">Teams 2</string>
+    <string name="nm_time1">Name of first team</string>
+    <string name="nm_time2">Name of second team</string>
+    <string name="tx_btn">Play</string>
     <string name="title_activity_game">GameActivity</string>
 </resources>
