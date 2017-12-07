@@ -18,18 +18,12 @@
 
         <TextView
             android:id="@+id/timeCasa"
-            android:layout_width="wrap_content"
-            android:layout_weight="0.5"
-            android:layout_height="wrap_content"
-            android:gravity="center"
+            style="@style/placar_titulo"
             tools:text="TIME DA CASAS" />
 
         <TextView
             android:id="@+id/timeVisitante"
-            android:layout_weight="0.5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
+            style="@style/placar_titulo"
             tools:text="TIME DA VISITANTE" />
 
     </LinearLayout>
@@ -59,21 +53,12 @@
 
         <Button
             android:id="@+id/btGolTime1"
-            android:layout_weight="0.5"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="marcarGol"
-            android:text="GOL"/>
+            style="@style/botao_placar"/>
 
         <Button
+            style="@style/botao_placar"
             android:id="@+id/btGolTime2"
-            android:layout_weight="0.56"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="marcarGol"
-            android:text="GOL"/>
+            />
 
     </LinearLayout>
 
